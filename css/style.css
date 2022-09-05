@@ -1,0 +1,14 @@
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: #404EED;
+    min-height: 80px;
+}
