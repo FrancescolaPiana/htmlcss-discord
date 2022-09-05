@@ -8,7 +8,68 @@
     box-sizing: border-box;
 }
 
-nav{
+body{
+    font-family: helvetica, Arial, sans-serif;
+}
+
+header{
     background-color: #404EED;
-    min-height: 80px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    min-height: 100px;
+}
+
+/* miei flex */
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fl{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.btn{
+    background-color: white;
+    padding: 10px 14px 10px 14px;
+    border-radius: 40px;
+}
+
+.wdt{
+    margin: auto;
+    max-width: 1200px;
+}
+
+/* text */
+
+.white{
+    color: white;
+}
+
+.black{
+    color: black;
+}
+
+.font1{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.font2{
+    font-size: 13px;
+    font-weight: 500;
 }
