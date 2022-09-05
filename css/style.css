@@ -82,6 +82,20 @@ nav{
     font-weight: 600;
 }
 
+.font3{
+    font-size: 50px;
+    font-weight: 600;
+    padding-bottom: 40px;
+    color: #23272A;
+}
+
+
+.font4{
+    line-height: 170%;
+    color: #23272A;
+    font-size: 18px;
+}
+
 
 /* hero image/text */
 
@@ -104,8 +118,8 @@ nav{
             text-align: center;
             margin: 0 auto;
             color: white;
-            padding-top: 50px;
-            padding-bottom: 100px;
+            padding-top: 100px;
+            padding-bottom: 200px;
         }
         
         #title{
@@ -139,6 +153,35 @@ nav{
         }
 
 
-
-
         /* fine hero1 */
+
+
+/* sezione1 */
+        .separator1{
+            padding-top: 200px;
+            padding-bottom: 500px;
+        }
+
+        .separator2{
+            padding-top: 200px;
+            padding-bottom: 200px;
+        }
+
+        .sez1{
+            display: flex;
+            flex-direction: row ;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .textl{
+          padding: 40px 100px 40px 0px;
+        }
+
+        .textr{
+            padding: 40px 0px 40px 100px;
+        }
+
+        .background{
+            background-color: #f6f6f6;
+        }
