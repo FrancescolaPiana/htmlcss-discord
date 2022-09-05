@@ -13,7 +13,7 @@ body{
 }
 
 header{
-    background-color: #404EED;
+    background-color: #255EE9;
 }
 
 li{
@@ -27,6 +27,10 @@ a{
 nav{
     min-height: 100px;
 }
+
+.clearfix {
+    overflow: auto;
+  }
 
 /* miei flex */
 
@@ -61,7 +65,7 @@ nav{
 }
 
 .black{
-    color: black;
+    color: #23272A;
 }
 
 .font1{
@@ -73,3 +77,37 @@ nav{
     font-size: 13px;
     font-weight: 500;
 }
+
+
+/* hero image/text */
+
+    /* hero1 */
+        .hero-image1{
+            background-image: url(../img/jumbo.png);
+            height: 490px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            }
+
+        .hero-text{
+            max-width: 800px;
+            text-align: center;
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+        }
+        
+        #title{
+            font-size: 60px;
+            padding: 50px;
+        }
+
+        #st{
+            font-size: 20px;
+            line-height: 30px;
+            font-weight: 500;
+        }
