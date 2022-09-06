@@ -94,6 +94,7 @@ nav{
     line-height: 170%;
     color: #23272A;
     font-size: 18px;
+    max-width: 1100px;
 }
 
 
@@ -139,12 +140,19 @@ nav{
 
         .btn2{
             background-color: white;
-            padding: 14px 20px 14px 20px;
+            padding: 16px 24px 16px 24px;
             border-radius: 40px;
         }
+
         .btn2b{
             background-color: #23272A;
-            padding: 14px 20px 14px 20px;
+            padding: 16px 24px 16px 24px;
+            border-radius: 40px;
+        }
+
+        .btn3{
+            background-color: #8EA1E1;
+            padding: 16px 24px 16px 24px;
             border-radius: 40px;
         }
 
@@ -174,6 +182,16 @@ nav{
             max-width: 1200px;
             margin: 0 auto;
         }
+
+        .sez4{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            max-width: 1200px;
+            align-items: center;
+            margin: 0 auto;
+        }
+
         .textl{
           padding: 40px 100px 40px 0px;
         }
@@ -185,3 +203,29 @@ nav{
         .background{
             background-color: #f6f6f6;
         }
+
+        .big{
+            width: 1200px;
+        }
+
+        .dod{
+            padding: 40px 50px 40px 50px;
+            font-size: 27px;
+            background-repeat: no-repeat;
+            background-position: top;
+            background-image: url(/img/stars.svg);
+        }
+
+        .cen{
+            text-align: center;
+        }
+
+            /* footer section */
+                footer{
+                    background-color: #23272A;
+                    height: 500px;  
+                    /* messo solo per vedere il colore */
+                }
+
+                /* #7289DA colore lilla footer */
+
