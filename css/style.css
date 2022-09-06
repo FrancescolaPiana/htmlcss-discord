@@ -72,6 +72,10 @@ nav{
     color: #23272A;
 }
 
+.lilla{
+    color: #7289DA;
+}
+
 .font1{
     font-size: 13px;
     font-weight: 600;
@@ -152,7 +156,13 @@ nav{
 
         .btn3{
             background-color: #8EA1E1;
-            padding: 16px 24px 16px 24px;
+            padding: 15px 24px 15px 24px;
+            border-radius: 40px;
+        }
+
+        .btn3b{
+            background-color: #8EA1E1;
+            padding: 10px 14px 10px 14px;
             border-radius: 40px;
         }
 
@@ -228,4 +238,16 @@ nav{
                 }
 
                 /* #7289DA colore lilla footer */
+                hr{
+                    background-color: #7289DA;
+                    border: 0px;
+                    height: 3px;
+                }
 
+                .footer2{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-top: 35px;
+                    margin-bottom: 60px;
+                }
